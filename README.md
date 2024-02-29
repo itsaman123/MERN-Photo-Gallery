@@ -24,5 +24,5 @@ This is a web application built using the MERN stack (MongoDB, Express.js, React
 
 ## Snapshot
 
-![Uploading image.png…]()
+<img width="959" alt="image" src="https://github.com/itsaman123/MERN-Photo-Gallery/assets/84653396/8b00b18e-7119-4d9d-ae16-eba590bd70b8">
 
