@@ -17,7 +17,7 @@ This is a web application built using the MERN stack (MongoDB, Express.js, React
 
 ## How to Use
 
-1. **Clone the Repository**: Clone the project repository to your local machine using `cd <project url>`
+1. **Clone the Repository**: Clone the project repository to your local machine using `git clone <project url>`
 2. **Install Dependencies**: Navigate to the project directory and run `npm install` to install necessary dependencies.
 3. **Start the Server**: Run `npm start` to start the server.
 4. **Access the Application**: Open a web browser and navigate to `http://localhost:3000` (or the port you've configured) to access the application.
