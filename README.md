@@ -22,7 +22,8 @@ This is a web application built using the MERN stack (MongoDB, Express.js, React
 3. **Start the Server**: Run `npm start` to start the server.
 4. **Access the Application**: Open a web browser and navigate to `http://localhost:3000` (or the port you've configured) to access the application.
 
-## Snapshot
+## Demo
 
-<img width="959" alt="image" src="https://github.com/itsaman123/MERN-Photo-Gallery/assets/84653396/8b00b18e-7119-4d9d-ae16-eba590bd70b8">
+https://github.com/itsaman123/MERN-Photo-Gallery/assets/84653396/59c5c187-c97e-4e26-935e-f45326588504
+
 
