@@ -28,19 +28,13 @@ router.delete("/api/delete/:id", async (req, res) => {
   const photoId = req.params.id;
 
   try {
-    // Find the photo by ID
-    const photo = await UploadModel.findById(photoId);
+     const photo = await UploadModel.findById(photoId);
 
-    // Check if the photo exists
-    if (!photo) {
+     if (!photo) {
       return res.status(404).send("Photo not found");
     }
-
-    // Delete the photo from the database
-    await photo.deleteOne();
-
-    // Respond with success
-    res.send("Photo deleted successfully");
+     await photo.deleteOne();
+     res.send("Photo deleted successfully");
   } catch (error) {
     console.error("Error deleting photo:", error);
     res.status(500).send("Internal Server Error");
@@ -48,5 +42,4 @@ router.delete("/api/delete/:id", async (req, res) => {
 });
 
 module.exports = router;
-
-module.exports = router;
+ 
